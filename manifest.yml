@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOTDemoAppMK260117
+  host: IOTDemoAppMK260117
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-zk
+  - IOTDemoAppMK260117-cloudantNoSQLDB
+  - IOTDemoAppMK260117-iotf-service
